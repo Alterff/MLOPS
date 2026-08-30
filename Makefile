@@ -1,6 +1,6 @@
 .PHONY: install lint test
 install:
-	python.exe -m pip install --upgrade pip
+	python -m pip install --upgrade pip
 	pip install -r requirements.txt
 
 
